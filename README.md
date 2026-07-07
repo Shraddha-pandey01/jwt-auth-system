@@ -32,6 +32,6 @@ jwt-auth-system/
 📡 API Endpoints
 
 Method    Endpoint               Description                 Auth Required
-POST     /api/auth/             registerRegister a new user       ❌
-POST     /api/auth/login        Login and get JWT token           ❌
-GET      /api/user/              profileAccess protected route    ✅
+POST      /api/auth/register      Register a new user             ❌
+POST      /api/auth/login        Login and get JWT token          ❌
+GET        /api/user/            profileAccess protected route    ✅
